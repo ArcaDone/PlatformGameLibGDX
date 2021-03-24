@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.11.25" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="34">
+ <editorsettings>
+  <export format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" name="floor" tilewidth="16" tileheight="16" tilecount="18" columns="6">
+  <image source="floor.png" width="96" height="48"/>
+ </tileset>
+ <tileset firstgid="19" source="platform.tsx"/>
+ <tileset firstgid="20" source="enemy.tsx"/>
+ <tileset firstgid="21" source="powerup.tsx"/>
+ <tileset firstgid="22" source="exit-portal.tsx"/>
+ <tileset firstgid="23" source="player_start.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="80" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzcsKwzAMRNG82qZNmjT5/4/NbATC2MImq8I9MGBhDeo6AAAAAAAAAAAAAAAA/LNeGZRRmZSHez8zu/Znu2l3KPSifT9HN2v6rfNdL2VW3spHWdx7zezan+2m3bnQi/b9HN2s6bfOd32VTdmVn3K495nZtT/bTbtboRft+zm6WdNvnS+TZQYl
+  </data>
+ </layer>
+ <objectgroup id="5" name="EndPortal">
+  <object id="24" gid="22" x="1278.02" y="366.374" width="64" height="64" rotation="180"/>
+ </objectgroup>
+ <objectgroup id="6" name="PowerUps">
+  <object id="22" gid="21" x="688" y="432" width="15" height="17"/>
+  <object id="31" gid="21" x="704" y="432" width="15" height="17"/>
+  <object id="32" gid="21" x="720" y="432" width="15" height="17"/>
+ </objectgroup>
+ <objectgroup id="8" name="StarterPlayer">
+  <object id="33" gid="23" x="64" y="352" width="50" height="37"/>
+ </objectgroup>
+ <objectgroup id="7" name="Enemies">
+  <object id="19" gid="20" x="336" y="384" width="29" height="44" rotation="180"/>
+  <object id="28" gid="20" x="528" y="384" width="29" height="44" rotation="180"/>
+  <object id="29" gid="20" x="960" y="384" width="29" height="44" rotation="180"/>
+  <object id="30" gid="20" x="1088" y="384" width="29" height="44" rotation="180"/>
+ </objectgroup>
+ <objectgroup id="3" name="Platforms">
+  <object id="25" gid="19" x="176" y="480" width="58" height="58"/>
+  <object id="26" gid="19" x="0" y="480" width="80" height="33.25"/>
+  <object id="27" gid="19" x="80" y="480" width="96" height="33.25"/>
+ </objectgroup>
+</map>

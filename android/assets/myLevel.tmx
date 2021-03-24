@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.11.25" orientation="orthogonal" renderorder="right-down" width="80" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="19">
+ <editorsettings>
+  <export target="myLevel.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" name="floor" tilewidth="16" tileheight="16" tilecount="18" columns="6">
+  <image source="floor.png" width="96" height="48"/>
+ </tileset>
+ <tileset firstgid="19" name="Acorn" tilewidth="16" tileheight="16" tilecount="1" columns="1">
+  <image source="acorn.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="20" source="platform.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="80" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlusKwjAMhet9XjadT5T3fyrPQCGGtGOytXacD86P1LaLhyQ0BEIIIYQQQgghhBCyJBtoC+2gPXQsm051nKAGOkMX6FY2neqAfwL/BP4J/BP4J6Vzyo3twYMTx/oSZwV7BXsFe+X4o39eDrXMAtuDVydeui+9HGqZBS3UQXfoAfVO/Fw4h6Hv7TdrmQWl/LP92qpvPp3f/4Vh1uj5Uso/26/WP/t7jOH/5JyVw6zR8yW3f7auHm9Z/2wOsXo8hbyzsg3fnuT2r3Hu78O4f7F6bGfOb4yc/sXeJZ3zjTH/bDznm2fKGy6nf7F3yS/+6VrtE3fPlWfs7pz+eXd/vJnq30d6/5J5xu6e079U3et1vbZ1Yn0+1UNri1N1r9f1WuPE+nyqh9YWp2pXr+u1zon1+VQfrC1+AQxrHE4=
+  </data>
+ </layer>
+ <objectgroup id="3" name="Platforms">
+  <object id="14" gid="20" x="288" y="176" width="58" height="58" rotation="-90"/>
+  <object id="15" gid="20" x="383.667" y="249.667" width="58" height="58" rotation="90"/>
+  <object id="16" gid="20" x="441.667" y="233" width="58" height="58" rotation="90"/>
+  <object id="17" gid="20" x="567" y="185.667" width="58" height="58" rotation="90"/>
+  <object id="18" gid="20" x="505.667" y="212.333" width="58" height="58" rotation="90"/>
+ </objectgroup>
+ <objectgroup id="2" name="Collectables" visible="0">
+  <object id="6" gid="19" x="336" y="432" width="16" height="16"/>
+  <object id="7" gid="19" x="368" y="417" width="16" height="16"/>
+ </objectgroup>
+</map>
